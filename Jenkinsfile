@@ -13,7 +13,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 dir("my-app/target"){
-                sh 'scp my-app-1.0-SNAPSHOT.jar atul@192.168.43.101:/home/atul'  
+                sh 'sudo scp my-app-1.0-SNAPSHOT.jar atul@192.168.43.101:/home/atul'  
                 }
             }
         }
