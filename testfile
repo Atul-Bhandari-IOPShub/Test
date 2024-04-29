@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+     	
+    stages {
+                
+        stage('touch') {
+            steps {
+                    sh 'touch naga'
+                
+            }
+        }
+        stage('push') {
+            steps {
+                sh 'git add .'
+                sh 'git commit -m "naga"
+                sh 'git push'
+                sh 'Atul-Bhandari-IOPShub
+                sh '@Tul70111'
+                
+            }
+        }
+    }
+}
+    
