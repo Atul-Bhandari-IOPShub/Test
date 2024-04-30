@@ -16,7 +16,7 @@ pipeline {
                 sh 'git commit -m "naga"'
                 sh 'git push'
                 sh 'Atul-Bhandari-IOPShub'
-                sh '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'
+                sh ''
                 
             }
         }
